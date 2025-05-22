@@ -11,10 +11,10 @@ import { RouterOutlet } from '@angular/router';
 export class AppComponent {
   title = 'gitAngular';
 
-  constructor(){
-    console.log('Funcion de prueba');
-    console.warn("ad ververanvia");
-    console.log("prueba de conflictos");
 
+  constructor(){
+    console.log('nuevas funcionesS');
+    console.warn("Cuidado a");
+    console.log("Prueba de conflictos")
   }
 }
