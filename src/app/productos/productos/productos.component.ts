@@ -4,11 +4,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   selector: 'app-productos',
   imports: [],
   templateUrl: './productos.component.html',
-  styles: `
-    :host {
-      display: block;
-    }
-  `,
+  styleUrls: ['./productos.component.css'], // Aquí va el archivo de estilos
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class ProductosComponent { }
